@@ -4,6 +4,92 @@
 
 @tailwind utilities;
 
-.test {
-  background: #badaba;
+.skill {
+  position: relative;
+  box-shadow: inset 0px -2px 0px 0px rgba(178,183,255,1);
+}
+
+.skill:hover {
+  box-shadow: inset 0px 0px 0px 2px rgba(178,183,255,1);
+  background: #fff;
+  transition: .2s all ease-in-out;
+}
+
+.skill:hover svg {
+  color: #fff;
+}
+
+.skill:hover::after {
+  content: '';
+  position: absolute;
+  color: #6574cd;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.html:hover::after {
+  content: 'HTML';
+}
+
+.css:hover::after {
+  content: 'CSS';
+}
+
+.js:hover::after {
+  content: 'JavaScript';
+  font-size: 14px;
+}
+
+.sass:hover::after {
+  content: 'Sass';
+}
+
+.tailwind:hover::after {
+  content: 'Tailwind';
+  font-size: 17px;
+}
+
+.bootstrap:hover::after {
+  content: 'Bootstrap';
+  font-size: 15px;
+}
+
+.php:hover::after {
+  content: 'PHP';
+}
+
+.mysql:hover::after {
+  content: 'MySQL';
+}
+
+.ror:hover::after {
+  content: 'Ruby\Aon\ARails';
+  white-space: pre;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.nodejs:hover::after {
+  content: 'NodeJS';
+}
+
+.java:hover::after {
+  content: 'Java';
+}
+
+.csharp:hover::after {
+  content: 'C#';
+}
+
+.photoshop:hover::after {
+  content: 'Photoshop';
+  font-size: 13px;
+}
+
+.xd:hover::after {
+  content: 'Adobe\AXd';
+  white-space: pre;
+  text-align: center;
+  font-size: 17px;
 }
