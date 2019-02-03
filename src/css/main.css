@@ -4,6 +4,23 @@
 
 @tailwind utilities;
 
+.indigo-circle {
+  position: relative;
+}
+
+.indigo-circle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -7px;
+
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background: #6574cd;
+}
+
 .skill {
   position: relative;
   box-shadow: inset 0px -2px 0px 0px rgba(178,183,255,1);
