@@ -33,7 +33,7 @@ if (!$isKnown) {
 
 <body style="background: linear-gradient(to right, rgb(96, 108, 136), rgb(63, 76, 107));">
   <main class="h-screen">
-    <div class="back-to-top fixed w-10 h-10 pin-b pin-r mr-4 mb-4 hidden aligns-items justify-center bg-white border-2 border-indigo text-indigo hover:bg-indigo hover:text-white cursor-pointer"
+    <div class="back-to-top fixed w-10 h-10 pin-b pin-r mr-4 mb-4 flex aligns-items justify-center bg-white border-2 border-indigo text-indigo hover:bg-indigo hover:text-white opacity-0"
       style="transform: rotate(45deg);">
       <span class="self-center font-sans font-light" style="transform: rotate(-45deg);">Top</span>
     </div>
@@ -55,7 +55,7 @@ if (!$isKnown) {
                 <p class="text-xl leading-tight">Valentin Kaelin</p>
                 <p class="my-2 text-sm leading-tight text-grey-dark sm:text-justify">
                   Etudiant en informatique, développeur web et interessé par le design.
-                  <br> Me contacter de préfèrence à l'email suivante: contact@valentinkaelin.ch
+                  <br> Me contacter de préfèrence à l'email suivante: <a class="text-grey-dark border-b border-dashed pb-px no-underline" href="mailto:contact@valentinkaelin.ch">contact@valentinkaelin.ch</a>
                 </p>
               </div>
               <div class="flex justify-between mb-4">
@@ -94,7 +94,7 @@ if (!$isKnown) {
                 <img src="img/exts.jpg" class="w-auto h-12 ml-auto mt-2 rounded-full">
               </div>
               <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5">
-                Cours en ligne de 450h "Web Application Development".
+                Certificate of Open Studies in Web Application Development
               </p>
               <a href="https://exts.epfl.ch/courses-programs/web-application-development" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white">Site</a>
             </div>
@@ -337,7 +337,7 @@ if (!$isKnown) {
         <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2">
           <div class="flex items-center">
             <img src="img/ciao.png" class="w-auto h-12 mr-2 ">
-            <span class="text-2xl font-light whitespace-no-wrap">Association CIAO</span>
+            <span class="text-xl sm:text-2xl font-light whitespace-no-wrap">Association CIAO</span>
           </div>
           <div class="w-full my-3">
             <p class="text-sm text-justify mb-2 px-4 py-1 -mx-4 bg-grey-lightest">

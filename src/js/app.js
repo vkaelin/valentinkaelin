@@ -1,18 +1,25 @@
-console.log('loaded8');
+console.log('loaded');
 /* Back-to-top */
-var backToTop = document.querySelector('.back-to-top');
-
+const backToTop = document.querySelector('.back-to-top');
 window.addEventListener('scroll', function () {
-  var scrollBarPosition = window.pageYOffset;
+  const scrollBarPosition = window.pageYOffset;
   if (scrollBarPosition > 500) {
-    backToTop.classList.remove('hidden');
-    backToTop.classList.add('flex');
+    changeElementStates(backToTop, 'opacity-100', 'opacity-0');
+    changeElementStates(backToTop, 'cursor-pointer', 'cursor-default');
   } else {
-    backToTop.classList.add('hidden');
-    backToTop.classList.remove('flex');
+    changeElementStates(backToTop, 'opacity-0', 'opacity-100');
+    changeElementStates(backToTop, 'cursor-default', 'cursor-pointer');
   }
 });
 
 backToTop.addEventListener('click', function () {
-  document.documentElement.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  const scrollBarPosition = window.pageYOffset;
+  if (scrollBarPosition > 500) {
+    document.documentElement.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  }
 });
+
+function changeElementStates(e, toAdd, toRemove) {
+  if (toAdd !== '') e.classList.add(toAdd);
+  if (toRemove !== '') e.classList.remove(toRemove);
+}
