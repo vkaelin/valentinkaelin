@@ -2,6 +2,12 @@
   transition: opacity .4s ease-in-out;
 }
 
+.modal-discord {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  transition: all .6s ease-in-out;
+}
+
 .indigo-circle {
   position: relative;
 }

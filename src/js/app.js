@@ -23,3 +23,29 @@ function changeElementStates(e, toAdd, toRemove) {
   if (toAdd !== '') e.classList.add(toAdd);
   if (toRemove !== '') e.classList.remove(toRemove);
 }
+
+
+/* Discord Modal */
+const openDiscord = document.querySelector('#openDiscord');
+const closeDiscord = document.querySelector('#closeDiscord');
+const modalDiscord = document.querySelector('.modal-discord');
+const modalBackground = document.querySelector('.modal-background');
+
+openDiscord.addEventListener('click', () => {
+  changeElementStates(modalBackground, 'block', 'hidden');
+  modalDiscord.style.transform = 'translateY(0)';
+});
+
+closeDiscord.addEventListener('click', () => {
+  closeDiscordModal();
+});
+
+modalDiscord.addEventListener('click', (e) => {
+  if(e.target.classList.contains('modal-discord'))
+    closeDiscordModal();
+});
+
+function closeDiscordModal() {
+  changeElementStates(modalBackground, 'hidden', 'block');
+  modalDiscord.style.transform = 'translateY(-100%)';
+}

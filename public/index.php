@@ -32,6 +32,26 @@ if (!$isKnown) {
 </head>
 
 <body style="background: linear-gradient(to right, rgb(96, 108, 136), rgb(63, 76, 107));">
+
+
+  <div class="modal-background fixed w-full h-screen z-10 hidden" style="background-color: rgba(34, 41, 47, 0.5);"></div>
+
+  <div class="modal-discord fixed w-full z-40 flex items-center h-screen px-2">
+    <div class="relative max-w-sm mx-auto w-full bg-white rounded-lg px-6 py-10">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="absolute pin-r pin-t text-indigo fill-current h-10 w-10 cursor-pointer rounded-full flex items-center justify-center hover:bg-indigo-lightest mr-1 mt-1"
+        id="closeDiscord">
+        <path fill-rule="evenodd" d="M15.78 14.36a1 1 0 0 1-1.42 1.42l-2.82-2.83-2.83 2.83a1 1 0 1 1-1.42-1.42l2.83-2.82L7.3 8.7a1 1 0 0 1 1.42-1.42l2.83 2.83 2.82-2.83a1 1 0 0 1 1.42 1.42l-2.83 2.83 2.83 2.82z" />
+      </svg>
+      <div class="bg-grey-lightest px-4 py-6 border border-grey-lighter rounded-lg my-2">
+        <div class="flex items-center justify-center">
+          <div class="font-sans font-medium text-indigo text-3xl">My Discord: Kalane#4147</div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
   <main class="h-screen">
     <div class="back-to-top fixed w-10 h-10 pin-b pin-r mr-4 mb-4 flex aligns-items justify-center bg-white border-2 border-indigo text-indigo hover:bg-indigo hover:text-white opacity-0"
       style="transform: rotate(45deg);">
@@ -55,7 +75,8 @@ if (!$isKnown) {
                 <p class="text-xl leading-tight">Valentin Kaelin</p>
                 <p class="my-2 text-sm leading-tight text-grey-dark sm:text-justify">
                   Etudiant en informatique, développeur web et interessé par le design.
-                  <br> Me contacter de préfèrence à l'email suivante: <a class="text-grey-dark border-b border-dashed pb-px no-underline" href="mailto:contact@valentinkaelin.ch">contact@valentinkaelin.ch</a>
+                  <br> Me contacter de préfèrence à l'email suivante: <a class="text-grey-dark border-b border-dashed pb-px no-underline"
+                    href="mailto:contact@valentinkaelin.ch">contact@valentinkaelin.ch</a>
                 </p>
               </div>
               <div class="flex justify-between mb-4">
@@ -78,7 +99,7 @@ if (!$isKnown) {
             <a href="mailto:contact@valentinkaelin.ch" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-blue-dark text-blue-dark hover:bg-blue-dark hover:text-white">Email</a>
             <a href="https://twitter.com/Valentinkln" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-blue-light text-blue-light hover:bg-blue-light hover:text-white">Twitter</a>
             <a href="https://www.linkedin.com/in/valentin-kaelin-659759157/" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-blue text-blue hover:bg-blue hover:text-white">LinkedIn</a>
-            <a href="discord.html" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white">Discord</a>
+            <span id="openDiscord" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white">Discord</span>
             <a href="https://github.com/Kalaneee" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-grey-darkest text-grey-darkest hover:bg-grey-darkest hover:text-white">GitHub</a>
           </div> <!-- /Bottom of the card -->
         </div><!-- ./ About -->
