@@ -123,7 +123,7 @@ if (!$isKnown) {
               <div class="flex items-center mb-2">
                 <div class="mr-2 text-base">EPFL</div>
                 <div class="text-sm leading-tight text-grey-dark mr-1">septembre 2017 - février 2018</div>
-                <img src="img/epfl-2.png" class="w-auto h-12 ml-auto mt-2 rounded-full">
+                <img src="img/epfl.jpg" class="w-auto h-12 ml-auto mt-2 rounded-full">
               </div>
               <p class="text-sm pt-2 border-t border-grey-lighter w-4/5">Cursur arrêté à la fin du premier semestre de
                 l'année propédeutique en informatique.</p>
@@ -144,7 +144,7 @@ if (!$isKnown) {
               <div class="flex items-center mb-2">
                 <div class="mr-2 text-base">Gymnase</div>
                 <div class="text-sm leading-tight text-grey-dark mr-1">août 2013 - juin 2016</div>
-                <img src="img/burier-2.png" class="w-auto h-12 ml-auto rounded-full mt-2">
+                <img src="img/burier.jpg" class="w-auto h-12 ml-auto rounded-full mt-2">
               </div>
               <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5">
                 Maturité fédérale en option maths et physique
@@ -293,10 +293,10 @@ if (!$isKnown) {
       <!-- Second col -->
       <div class="flex flex-col flex-grow items-center max-w-sm w-full md:mb-8 px-3 pt-8">
         <h1 class="font-light uppercase text-grey-lightest text-2xl mt-3 mb-2">
-          <span class="text-3xl mr-1 opacity-50">4</span>projets
+          <span class="text-3xl mr-1 opacity-50">5</span>projets
         </h1>
 
-        <!-- First project -->
+        <!-- YouTogether -->
         <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2">
           <div class="flex items-center">
             <img src="img/youtogether.png" class="w-auto h-12 mr-2 rounded-full">
@@ -323,12 +323,12 @@ if (!$isKnown) {
             Voir le site
           </a>
 
-        </div> <!-- ./First project -->
+        </div> <!-- ./YouTogether -->
 
-        <!-- Second project -->
+        <!-- Kryptonia -->
         <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2">
           <div class="flex items-center">
-            <img src="https://pbs.twimg.com/profile_images/834902158579548160/afsfp7Pu_400x400.jpg" class="w-auto h-12 mr-2 rounded-full">
+            <img src="img/krypto.png" class="w-auto h-12 mr-2 rounded-full">
             <span class="text-2xl font-light whitespace-no-wrap">Kryptonia</span>
           </div>
           <div class="w-full my-3">
@@ -352,12 +352,12 @@ if (!$isKnown) {
             Voir le site
           </a>
 
-        </div> <!-- ./Second project -->
+        </div> <!-- ./Kryptonia -->
 
-        <!-- Third project -->
+        <!-- CIAO -->
         <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2">
           <div class="flex items-center">
-            <img src="img/ciao.png" class="w-auto h-12 mr-2 ">
+            <img src="img/ciao.png" class="w-auto h-12 mr-2">
             <span class="text-xl sm:text-2xl font-light whitespace-no-wrap">Association CIAO</span>
           </div>
           <div class="w-full my-3">
@@ -382,12 +382,39 @@ if (!$isKnown) {
             Voir le site
           </a>
 
-        </div> <!-- ./Third project -->
+        </div> <!-- ./CIAO -->
 
-        <!-- Fourth project -->
+        <!-- 3lementair -->
         <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2">
           <div class="flex items-center">
-            <img src="img/BikeGame.png" class="w-auto h-12 mr-2 rounded-full">
+            <img src="img/3lementair.png" class="w-auto h-12">
+          </div>
+          <div class="w-full my-3">
+            <p class="text-sm text-justify mb-2 px-4 py-1 -mx-4 bg-grey-lightest">
+              Refonte complète du site de la SA 3lément'Air, une entreprise spécialisée dans les clean rooms (sans cahier des charges).
+            </p>
+            <div class="leading-loose">
+              <div class="text-sm">
+                Technologie utilisée :
+                <span class="text-grey-darker border-b border-dashed pb-px">TailwindCSS</span>,
+                <span class="text-grey-darker border-b border-dashed pb-px">PHP</span>
+              </div>
+              <div class="text-sm">
+                Date :
+                <span class="text-grey-darker">janvier 2018 - février 2019</span>
+              </div>
+            </div>
+          </div>
+          <a href="http://3lementair.ch/" target="_blank" class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white">
+            Voir le site
+          </a>
+
+        </div> <!-- ./3lementair -->
+
+        <!-- BikeGame -->
+        <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2">
+          <div class="flex items-center">
+            <img src="img/BikeGame.jpg" class="w-auto h-12 mr-2 rounded-full">
             <span class="text-2xl font-light whitespace-no-wrap">The BikeGame</span>
           </div>
           <div class="w-full my-3">
@@ -410,7 +437,7 @@ if (!$isKnown) {
             Voir le code
           </a>
 
-        </div> <!-- ./Fourth project -->
+        </div> <!-- ./BikeGame -->
 
         <div class="flex md:hidden md:flex-row items-center text-xs sm:text-sm text-grey-lighter text-center justify-center py-4 max-w-sm w-full px-4">
           <div>
