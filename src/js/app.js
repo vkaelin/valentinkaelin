@@ -31,6 +31,10 @@ const closeDiscord = document.querySelector('#closeDiscord');
 const modalDiscord = document.querySelector('.modal-discord');
 const modalBackground = document.querySelector('.modal-background');
 
+setTimeout(() => {
+  changeElementStates(modalDiscord, 'flex', 'hidden');
+}, 50);
+
 openDiscord.addEventListener('click', () => {
   changeElementStates(modalBackground, 'block', 'hidden');
   modalDiscord.style.transform = 'translateY(0)';

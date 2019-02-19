@@ -36,7 +36,7 @@ if (!$isKnown) {
 
   <div class="modal-background fixed w-full h-screen z-10 hidden" style="background-color: rgba(34, 41, 47, 0.5);"></div>
 
-  <div class="modal-discord fixed w-full z-40 flex items-center h-screen px-2">
+  <div class="modal-discord fixed w-full z-40 items-center h-screen px-2 hidden">
     <div class="relative max-w-sm mx-auto w-full bg-white rounded-lg px-6 py-10">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="absolute pin-r pin-t text-indigo fill-current h-10 w-10 cursor-pointer rounded-full flex items-center justify-center hover:bg-indigo-lightest mr-1 mt-1"
         id="closeDiscord">
