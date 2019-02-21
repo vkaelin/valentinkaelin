@@ -46,6 +46,16 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
+  'dark-1': '#000000',
+  'dark-2': '#212121',
+  'dark-3': '#303030',
+  'dark-4': '#424242',
+
+  'dark-primary': '#ffffff',
+  'dark-secondary': 'rgba(255, 255, 255, 0.7)',
+  'dark-disabled': 'rgba(255, 255, 255, 0.5)',
+  'dark-divider': 'rgba(255, 255, 255, 0.12)',
+
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
@@ -888,12 +898,12 @@ module.exports = {
   modules: {
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
-    backgroundColors: ['responsive', 'hover', 'focus'],
+    backgroundColors: ['responsive', 'dark', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],
     backgroundSize: ['responsive'],
     borderCollapse: [],
-    borderColors: ['responsive', 'hover', 'focus'],
+    borderColors: ['responsive', 'hover', 'focus', 'dark'],
     borderRadius: ['responsive'],
     borderStyle: ['responsive'],
     borderWidths: ['responsive', 'hover'],
@@ -921,12 +931,12 @@ module.exports = {
     pointerEvents: ['responsive'],
     position: ['responsive'],
     resize: ['responsive'],
-    shadows: ['responsive', 'hover', 'focus'],
+    shadows: ['responsive', 'hover', 'focus', 'dark'],
     svgFill: [],
     svgStroke: [],
     tableLayout: ['responsive'],
     textAlign: ['responsive'],
-    textColors: ['responsive', 'hover', 'focus'],
+    textColors: ['responsive', 'hover', 'focus', 'dark'],
     textSizes: ['responsive'],
     textStyle: ['responsive', 'hover', 'focus'],
     tracking: ['responsive'],
@@ -959,6 +969,15 @@ module.exports = {
       // padding: '1rem',
     }),
     require('tailwindcss-accessibility'),
+
+    function ({ addVariant }) {
+      addVariant('dark', ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.mode-dark .dark${separator}${className}`
+        })
+      })
+    },
+
   ],
 
 

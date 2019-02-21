@@ -1,4 +1,13 @@
 console.log('loaded');
+
+/* Switch theme */
+const switchTheme = document.querySelector('.switch-theme');
+const switchThemeLight = document.querySelector('.switch-theme svg');
+switchTheme.addEventListener('click', () => {
+  document.documentElement.classList.toggle('mode-dark');
+  switchThemeLight.classList.toggle('light-on');
+});
+
 /* Back-to-top */
 const backToTop = document.querySelector('.back-to-top');
 window.addEventListener('scroll', function () {

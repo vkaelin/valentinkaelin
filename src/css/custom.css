@@ -1,3 +1,15 @@
+body {
+  background: linear-gradient(to right, rgb(96, 108, 136), rgb(63, 76, 107));
+}
+
+.mode-dark body {
+  background: #000;
+}
+
+.light-on {
+  color: #F2D024 !important;
+}
+
 .back-to-top {
   transition: opacity .4s ease-in-out;
 }
@@ -8,6 +20,12 @@
   will-change: transform;
 }
 
+.mode-dark .btn:hover {
+  background: transparent;
+  box-shadow: 0 4px 8px 0 rgba(120, 134, 215, 0.24), 0 2px 4px 0 rgba(120, 134, 215, 0.16);
+}
+
+/* Skills section */
 .indigo-circle {
   position: relative;
 }
@@ -46,6 +64,18 @@
   color: #6574cd;
   font-weight: 400;
   font-size: 18px;
+}
+
+.mode-dark .skill:hover {
+  background: #303030;
+}
+
+.mode-dark .skill:hover svg {
+  color: #303030;
+}
+
+.mode-dark .skill:hover::after {
+  color: #7886d7;
 }
 
 .html:hover::after {
@@ -113,4 +143,17 @@
   white-space: pre;
   text-align: center;
   font-size: 17px;
+}
+
+.xd svg .test {
+  color: #fff;
+}
+
+.mode-dark .xd svg .test {
+  color: #303030;
+}
+
+/* Projects */
+.mode-dark .elementair {
+  content:url("../img/3lementair--white.png");
 }
