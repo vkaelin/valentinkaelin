@@ -1,12 +1,30 @@
 console.log('loaded');
 
 /* Switch theme */
-const switchTheme = document.querySelector('.switch-theme');
+const html = document.documentElement;
+const switchThemeContainer = document.querySelector('.switch-theme');
 const switchThemeLight = document.querySelector('.switch-theme svg');
-switchTheme.addEventListener('click', () => {
-  document.documentElement.classList.toggle('mode-dark');
-  switchThemeLight.classList.toggle('light-on');
+
+checkTheme();
+
+switchThemeContainer.addEventListener('click', () => {
+  localStorage['darkMode'] = localStorage['darkMode'] === 'true' ? 'false' : 'true';
+  checkTheme();
 });
+
+function checkTheme() {
+  localStorage['darkMode'] === 'true' ? applyTheme('dark') : applyTheme('light');
+}
+
+function applyTheme(state) {
+  if (state === 'dark') {
+    html.classList.add('mode-dark');
+    switchThemeLight.classList.remove('light-on');
+  } else {
+    html.classList.remove('mode-dark');
+    switchThemeLight.classList.add('light-on');
+  }
+}
 
 /* Back-to-top */
 const backToTop = document.querySelector('.back-to-top');
@@ -54,7 +72,7 @@ closeDiscord.addEventListener('click', () => {
 });
 
 modalDiscord.addEventListener('click', (e) => {
-  if(e.target.classList.contains('modal-discord'))
+  if (e.target.classList.contains('modal-discord'))
     closeDiscordModal();
 });
 
