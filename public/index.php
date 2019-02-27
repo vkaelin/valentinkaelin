@@ -58,7 +58,7 @@ if (!$isKnown) {
 
   <div class="switch-theme">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-      class="fixed pin-t pin-r w-6 text-white fill-current mr-2 mt-2 cursor-pointer opacity-75">
+      class="fixed pin-t pin-r w-6 text-white fill-current mr-2 mt-2 cursor-pointer opacity-75 light-on">
       <path class="primary"
         d="M5 8a7 7 0 1 1 10.62 6l-.64 3.2a1 1 0 0 1-.98.8h-4a1 1 0 0 1-.98-.8L8.38 14A7 7 0 0 1 5 8zm12 0a5 5 0 0 0-5-5 1 1 0 0 0 0 2 3 3 0 0 1 3 3 1 1 0 0 0 2 0z" />
       <path class="secondary" d="M15 21a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2 1 1 0 0 1 0-2h6a1 1 0 0 1 0 2z" />
@@ -132,13 +132,27 @@ if (!$isKnown) {
             <div
               class="flex flex-col bg-grey-lightest px-4 py-2 mt-2 mb-4 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
               <div class="flex items-center mb-2">
+                <div class="mr-2 text-base">ETML</div>
+                <div class="text-sm leading-tight text-grey-dark mr-1 dark:text-dark-secondary">août 2018 - actuellement
+                </div>
+                <img src="img/etml.jpg" class="w-12 ml-auto mt-2 rounded-full" alt="ETML">
+              </div>
+              <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">
+                FPA (Formation Professionnelle accélérée) en informatique.
+              </p>
+              <a href="https://www.etml.ch/" target="_blank"
+                class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
+            </div>
+            <div
+              class="flex flex-col bg-grey-lightest px-4 py-2 mt-2 mb-4 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
+              <div class="flex items-center mb-2">
                 <div class="mr-2 text-base">EPFL Extension School</div>
                 <div class="text-sm leading-tight text-grey-dark mr-1 dark:text-dark-secondary">mai 2018 - juillet 2018
                 </div>
                 <img src="img/exts.jpg" class="w-auto h-12 ml-auto mt-2 rounded-full" alt="Extension School">
               </div>
               <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">
-                Certificate of Open Studies in Web Application Development
+                Certificate of Open Studies in Web Application Development.
               </p>
               <a href="https://exts.epfl.ch/courses-programs/web-application-development" target="_blank"
                 class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
@@ -151,7 +165,7 @@ if (!$isKnown) {
                   2018</div>
                 <img src="img/epfl.jpg" class="w-auto h-12 ml-auto mt-2 rounded-full" alt="EPFL">
               </div>
-              <p class="text-sm pt-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">Cursur arrêté à la fin du
+              <p class="text-sm pt-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">Cursus arrêté à la fin du
                 premier semestre de
                 l'année propédeutique en informatique.</p>
               <a href="https://www.epfl.ch/" target="_blank"
@@ -180,7 +194,7 @@ if (!$isKnown) {
                 <img src="img/burier.jpg" class="w-auto h-12 ml-auto rounded-full mt-2" alt="Gymnase de Burier">
               </div>
               <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">
-                Maturité fédérale en option maths et physique
+                Maturité fédérale en option maths et physique.
               </p>
               <a href="http://www.gymnasedeburier.ch/site/" target="_blank"
                 class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
@@ -415,41 +429,6 @@ if (!$isKnown) {
 
         </div> <!-- ./YouTogether -->
 
-        <!-- Kryptonia -->
-        <div
-          class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2 dark:bg-dark-2 dark:text-dark-primary">
-          <div class="flex items-center">
-            <img src="img/krypto.png" class="w-auto h-12 mr-2 rounded-full" alt="Kryptonia">
-            <span class="text-2xl font-light whitespace-no-wrap">Kryptonia</span>
-          </div>
-          <div class="w-full my-3">
-            <p class="text-sm text-justify mb-2 px-4 py-1 -mx-4 bg-grey-lightest dark:bg-dark-3">
-              Gestion de projet d'un serveur Minecraft moddé disposant d'un base de joueurs de plus de 60'000 inscrits.
-            </p>
-            <div class="leading-loose">
-              <div class="text-sm">
-                Compétences acquises :
-                <span
-                  class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Gestion
-                  de projet</span>,
-                <span
-                  class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Communication</span>,
-                <span
-                  class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Graphisme</span>
-              </div>
-              <div class="text-sm">
-                Date :
-                <span class="text-grey-darker dark:text-dark-disabled">avril 2016 - aujourd'hui</span>
-              </div>
-            </div>
-          </div>
-          <a href="https://kryptonia.fr" target="_blank"
-            class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
-            Voir le site
-          </a>
-
-        </div> <!-- ./Kryptonia -->
-
         <!-- CIAO -->
         <div
           class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2 dark:bg-dark-2 dark:text-dark-primary">
@@ -507,7 +486,7 @@ if (!$isKnown) {
               </div>
               <div class="text-sm">
                 Date :
-                <span class="text-grey-darker dark:text-dark-disabled">janvier 2018 - février 2019</span>
+                <span class="text-grey-darker dark:text-dark-disabled">janvier 2019 - février 2019</span>
               </div>
             </div>
           </div>
@@ -517,6 +496,41 @@ if (!$isKnown) {
           </a>
 
         </div> <!-- ./3lementair -->
+
+        <!-- Kryptonia -->
+        <div
+          class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2 dark:bg-dark-2 dark:text-dark-primary">
+          <div class="flex items-center">
+            <img src="img/krypto.png" class="w-auto h-12 mr-2 rounded-full" alt="Kryptonia">
+            <span class="text-2xl font-light whitespace-no-wrap">Kryptonia</span>
+          </div>
+          <div class="w-full my-3">
+            <p class="text-sm text-justify mb-2 px-4 py-1 -mx-4 bg-grey-lightest dark:bg-dark-3">
+              Gestion de projet d'un serveur Minecraft moddé disposant d'un base de joueurs de plus de 60'000 inscrits.
+            </p>
+            <div class="leading-loose">
+              <div class="text-sm">
+                Compétences acquises :
+                <span
+                  class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Gestion
+                  de projet</span>,
+                <span
+                  class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Communication</span>,
+                <span
+                  class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Graphisme</span>
+              </div>
+              <div class="text-sm">
+                Date :
+                <span class="text-grey-darker dark:text-dark-disabled">avril 2016 - aujourd'hui</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://kryptonia.fr" target="_blank"
+            class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
+            Voir le site
+          </a>
+
+        </div> <!-- ./Kryptonia -->
 
         <!-- BikeGame -->
         <div
