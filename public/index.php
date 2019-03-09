@@ -21,6 +21,15 @@ if (!$isKnown) {
 <html lang="fr" class="">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113251543-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113251543-2');
+  </script>
   <meta charset="utf-8">
   <meta name="robots" content="index,follow">
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
