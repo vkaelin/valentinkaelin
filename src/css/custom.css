@@ -54,8 +54,9 @@ body {
   transition: .2s all ease-in-out;
 }
 
-.skill:hover svg {
-  color: #fff;
+.skill:hover svg,
+.skill:hover svg path {
+  fill: #fff;
 }
 
 .skill:hover::after {
@@ -70,8 +71,9 @@ body {
   background: #303030;
 }
 
-.mode-dark .skill:hover svg {
-  color: #303030;
+.mode-dark .skill:hover svg,
+.mode-dark .skill:hover svg path {
+  fill: #303030;
 }
 
 .mode-dark .skill:hover::after {
@@ -89,6 +91,10 @@ body {
 .js:hover::after {
   content: 'JavaScript';
   font-size: 14px;
+}
+
+.vuejs:hover::after {
+  content: 'VueJS';
 }
 
 .sass:hover::after {
@@ -145,12 +151,16 @@ body {
   font-size: 17px;
 }
 
-.xd svg .test {
-  color: #fff;
+.xd svg .inside {
+  fill: #fff;
 }
 
-.mode-dark .xd svg .test {
-  color: #303030;
+.mode-dark .xd svg .inside {
+  fill: #303030;
+}
+
+.figma:hover::after {
+  content: 'Figma';
 }
 
 /* Projects */

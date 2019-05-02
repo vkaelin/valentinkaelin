@@ -253,6 +253,22 @@ if (!$isKnown) {
                       </path>
                     </svg>
                   </a>
+                  <a class="skill vuejs flex items-center justify-center p-4 rounded-full mb-1 mr-1"
+                    href="https://vuejs.org/" target="_blank">
+                    <span class="sr-only">VueJS</span>
+                    <svg viewBox="0 0 128 128" class="text-indigo fill-current w-10 dark:text-indigo-light">
+                      <path
+                        d="m-2.3125e-8 8.9337 49.854 0.1586 14.167 24.47 14.432-24.47 49.547-0.1577-63.834 110.14zm126.98 0.6374-24.36 0.0207-38.476 66.052-38.453-66.052-24.749-0.0194 63.211 107.89zm-25.149-0.008-22.745 0.16758l-15.053 24.647-14.817-24.647-22.794-0.1679 37.731 64.476zM25.997 9.3929l23.002 0.0087M25.997 9.3929l23.002 0.0087"
+                        fill="none">
+                      </path>
+                      <path d="m25.997 9.3929 23.002 0.0087l15.036 24.958 14.983-24.956 22.982-0.0057-37.85 65.655z"
+                        fill="#5661B3">
+                      </path>
+                      <path d="m0.91068 9.5686 25.066-0.1711 38.151 65.658 37.852-65.654 25.11 0.0263-62.966 108.06z"
+                        fill="#6574cd">
+                      </path>
+                    </svg>
+                  </a>
                   <a class="skill sass flex items-center justify-center p-4 rounded-full mb-1 mr-1"
                     href="https://sass-lang.com/" target="_blank">
                     <span class="sr-only">SASS</span>
@@ -354,6 +370,9 @@ if (!$isKnown) {
               </div>
             </div> <!-- ./Dev -->
 
+
+
+
             <div
               class="px-4 py-2 bg-grey-lightest my-2 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
               <div class="text-lg">Design</div>
@@ -374,8 +393,20 @@ if (!$isKnown) {
                     <svg viewBox="0 0 240 234" class="text-indigo fill-current w-10 dark:text-indigo-light">
                       <path d="M10 10h220v214H10z" />
                       <path d="M0 0v234h240V0H0zm10 10h220v214H10V10z" />
-                      <path class="test"
+                      <path class="inside"
                         d="M174.3 98.3c-1.5-.7-3.4-1-5.8-1-12.6 0-21 9.7-21 25.8 0 18.4 8.6 25.8 19.8 25.8 2.4 0 5-.3 6.9-1.1V98.3h.1zm-44.8 25.6c0-23.3 15-41.5 39.6-41.5 2.1 0 3.2 0 5.2.2v-26c0-.6.5-1 1-1h16.1c.8 0 1 .3 1 .8v91.4c0 2.7 0 6.1.5 9.8 0 .7 0 .8-.6 1.1-8.4 4-17.2 5.8-25.6 5.8-21.7 0-37.2-13.4-37.2-40.6zm-34.1-16.2l28 54.3c.5.8.2 1.6-.6 1.6h-17.4c-1.1 0-1.6-.3-2.1-1.3-6.4-13.2-12.9-26.9-19.6-41.1h-.2c-6 13.4-12.6 28-19 41.2-.5.8-1 1.1-1.8 1.1H46.1c-1 0-1.1-.8-.6-1.4l27.4-52.7L46.4 57c-.6-.8 0-1.5.7-1.5h17.2c1 0 1.5.2 1.8 1.1C72.4 69.9 78.8 83 84.8 96.4h.2c5.8-13.2 12.2-26.5 18.3-39.6.5-.8.8-1.3 1.8-1.3h16.1c.8 0 1.1.6.6 1.5l-26.4 50.7z" />
+                    </svg>
+                  </a>
+                  <a class="skill figma flex items-center justify-center p-4 rounded-full mb-1 mr-1"
+                    href="https://www.figma.com/" target="_blank">
+                    <span class="sr-only">Figma</span>
+                    <svg viewBox="0 0 250 375" class="text-indigo fill-current w-10 h-10 dark:text-indigo-light"
+                      transform="translate(2, 4)">
+                      <path d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" />
+                      <path d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" />
+                      <path d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" />
+                      <path d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" />
+                      <path d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" />
                     </svg>
                   </a>
                 </div>
