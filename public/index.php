@@ -114,7 +114,8 @@ if (!$isKnown) {
                     <div class="flex flex-wrap justify-around px-3 py-3 border-t border-grey-lighter dark:border-dark-4">
                         <a href="mailto:contact@valentinkaelin.ch" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-blue-dark text-blue-dark hover:bg-blue-dark hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Email</a>
                         <a href="https://www.linkedin.com/in/valentin-kaelin-659759157/" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-blue text-blue hover:bg-blue hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">LinkedIn</a>
-                        <?php //<span id="openDiscord" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white cursor-pointer dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Discord</span> ?>
+                        <?php //<span id="openDiscord" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white cursor-pointer dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Discord</span> 
+                        ?>
                         <a href="/docs/ValentinKaelin-Resume.pdf" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white cursor-pointer dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">CV</a>
                         <a href="https://github.com/Kalaneee" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-grey-darkest text-grey-darkest hover:bg-grey-darkest hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">GitHub</a>
                     </div> <!-- /Bottom of the card -->
@@ -221,7 +222,7 @@ if (!$isKnown) {
                                         </svg>
                                     </a>
                                     <a class="skill vuejs flex items-center justify-center p-4 rounded-full mb-1 mr-1" href="https://vuejs.org/" target="_blank">
-                                        <span class="sr-only">VueJS</span>
+                                        <span class="sr-only">Vue.js</span>
                                         <svg viewBox="0 0 128 128" class="text-indigo fill-current w-10 dark:text-indigo-light">
                                             <path d="m-2.3125e-8 8.9337 49.854 0.1586 14.167 24.47 14.432-24.47 49.547-0.1577-63.834 110.14zm126.98 0.6374-24.36 0.0207-38.476 66.052-38.453-66.052-24.749-0.0194 63.211 107.89zm-25.149-0.008-22.745 0.16758l-15.053 24.647-14.817-24.647-22.794-0.1679 37.731 64.476zM25.997 9.3929l23.002 0.0087M25.997 9.3929l23.002 0.0087" fill="none">
                                             </path>
@@ -264,6 +265,13 @@ if (!$isKnown) {
                                             </path>
                                         </svg>
                                     </a>
+                                    <a class="skill laravel flex items-center justify-center p-4 rounded-full mb-1 mr-1" href="https://laravel.com/" target="_blank">
+                                        <span class="sr-only">Laravel</span>
+                                        <svg viewBox="0 0 128 128" class="text-indigo fill-current w-10 dark:text-indigo-light">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.934 1.719c-1.127.088-2.234.074-3.325.373-2.387.655-4.508 1.702-6.379 3.316-1.1.948-2.06 1.97-2.875 3.174-1.258 1.859-2.115 3.857-2.545 6.106.172.301.353.617.545.938 1.219 2.038 2.439 4.062 3.661 6.098l3.212 5.341c.988 1.646 1.974 3.293 2.96 4.939l4.608 7.688c1.047 1.748 2.095 3.497 3.143 5.244 1.527 2.545 3.058 5.088 4.583 7.634l5.609 9.371c1.617 2.699 3.237 5.396 4.857 8.093l.216.314c.235.075.422.011.616-.035 2.134-.512 4.268-1.021 6.402-1.531 3.461-.827 6.922-1.651 10.383-2.479l5.421-1.297c3.499-.836 6.999-1.67 10.498-2.508 3.537-.846 7.073-1.696 10.611-2.543 1.788-.429 3.576-.856 5.365-1.283 3.461-.826 6.922-1.65 10.383-2.474l11.308-2.693.611-.165-.167-.331-3.086-4.362-3.048-4.315-3.26-4.604-3.116-4.413-3.088-4.361-3.188-4.507c-1.041-1.47-2.084-2.938-3.126-4.407l-1.647-2.326c-.252-.357-.453-.742-.587-1.159-.326-1.011.046-1.684.636-2.181.382-.323.822-.56 1.298-.7.663-.195 1.332-.382 2.01-.51 1.359-.257 2.727-.475 4.091-.702l4.624-.754c.975-.161 1.949-.33 2.924-.495 1.325-.224 2.65-.449 3.976-.67 1.287-.216 2.574-.43 3.861-.642l4.213-.689 2.924-.491c1.112-.186 2.223-.371 3.334-.553 1.386-.226 2.771-.454 4.157-.671.826-.129 1.652-.174 2.472.062.615.177 1.175.465 1.696.833l.721.503c.072-.166-.032-.256-.08-.351-1.04-2.105-2.458-3.915-4.26-5.422-1.675-1.402-3.556-2.433-5.636-3.09-1.229-.389-2.492-.208-3.778-.305M55.689 127c-.062 0-.117-.45-.187-.569-1.5-2.56-3.016-5.308-4.498-7.877-1.867-3.238-3.717-6.486-5.557-9.74-1.965-3.478-3.913-6.966-5.863-10.452-1.854-3.314-3.702-6.631-5.549-9.948-1.115-2.005-2.223-4.014-3.337-6.02l-.296-.459-.542.107c-1.072.277-2.142.556-3.212.838-1.49.392-2.979.791-4.47 1.18-3.347.871-6.694 1.737-10.041 2.605-3.404.884-6.951 1.77-10.356 2.65-.207.053.219.071-.781.106v21.145c.412.656.373.347.399.563.079.626.207 1.257.317 1.877.412 2.31 1.339 4.425 2.679 6.351 1.965 2.826 4.582 4.846 7.788 6.082 1.145.44 2.34.75 3.562.9l1.241.328"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.976 77.742c3.939-.937 7.879-1.873 11.818-2.808 1.73-.41 3.461-.815 5.191-1.227.865-.206 1.732-.402 2.59-.634.764-.206.858-.459.465-1.148-.568-.996-1.146-1.986-1.721-2.979l-5.064-8.72-5.062-8.721c-1.717-2.958-3.436-5.916-5.154-8.873-1.471-2.53-2.942-5.06-4.412-7.59-.636-1.094-1.408-2.191-2.047-3.284-.119-.199.42-.437-.58-.543v47.396c0-.032.453-.059.606-.096l3.37-.773zM126.224 111.62c-1.544.549-3.089 1.102-4.632 1.655-3.515 1.26-7.03 2.52-10.545 3.781-1.953.701-3.902 1.41-5.856 2.108-3.982 1.421-7.966 2.837-11.949 4.255-2.308.822-4.617 1.838-6.924 2.664-.632.227-1.255.917-1.881.917h26.49l.57-.327c.674-.029 1.337-.229 1.999-.35 2.719-.497 5.154-1.673 7.311-3.392 1.657-1.321 3.005-2.936 4.061-4.778 1.086-1.896 1.731-3.947 2.041-6.101.027-.186.085-.397-.071-.589-.22-.017-.414.086-.614.157zM123.949 76.049c-1.168-1.598-2.339-3.193-3.505-4.792-1.609-2.207-3.215-4.416-4.822-6.624-.653-.896-1.315-1.785-1.952-2.691-.192-.273-.411-.346-.71-.265l-.171.049c-2.958.719-5.917 1.436-8.876 2.153l-5.302 1.287c-3.457.839-6.915 1.679-10.372 2.519-3.419.831-6.838 1.663-10.258 2.492l-10.662 2.582c-3.497.849-6.992 1.701-10.488 2.551l-10.142 2.462c-1.787.434-3.574.866-5.359 1.302-.263.064-.546.08-.826.292l.239.455c1.497 2.586 2.994 5.171 4.495 7.755 1.699 2.926 3.399 5.851 5.103 8.774 1.874 3.213 3.753 6.424 5.63 9.636 1.079 1.845 2.151 3.692 3.239 5.532 1.209 2.044 2.422 4.084 3.653 6.115.369.607.788 1.187 1.21 1.759.283.382.633.708 1.046.957.426.257.885.338 1.369.229.25-.057.495-.139.737-.223l.89-.33c3.237-1.107 6.473-2.214 9.711-3.317 2.526-.86 5.055-1.716 7.583-2.571 2.509-.851 5.02-1.698 7.53-2.545l7.474-2.524c2.548-.861 5.095-1.722 7.642-2.585 3.126-1.061 6.251-2.126 9.379-3.185 3.015-1.02 6.033-2.034 9.049-3.052.185-.062.389-.088.542-.291l.019-.439c.001-6.255-.001-12.511.006-18.766 0-.334-.089-.604-.289-.873-.948-1.269-1.877-2.551-2.812-3.828zM123.43 17.111c-.702-.889-1.596-1.171-2.692-.885-.477.125-.967.204-1.453.293-1.594.292-3.19.579-4.784.868-2.334.424-4.667.852-7.001 1.272-1.848.332-3.697.659-5.546.983l-7.418 1.298c-.311.054-.625.108-.925.204-.437.14-.563.414-.363.825.163.336.366.657.586.959 1.534 2.114 3.075 4.223 4.616 6.333 2.124 2.909 4.249 5.817 6.374 8.724 1.798 2.46 3.598 4.92 5.397 7.379 1.414 1.932 2.828 3.864 4.244 5.795l.279.338 12.271-3.033.029-.636c.001-8.511-.001-17.022.006-25.534 0-.376-.091-.678-.328-.976-1.032-1.303-2.045-2.621-3.066-3.933l-.226-.274zM126.731 58.352c-1.856.446-3.719.87-5.62 1.373.201.357 5.415 7.395 5.718 7.729l.19.105.021-.429.001-2.963c.001-1.719.005-3.438.001-5.157 0-.209.059-.434-.085-.646l-.226-.012z"></path>
+                                        </svg>
+                                    </a>
                                     <a class="skill mysql flex items-center justify-center p-4 rounded-full mb-1 mr-1" href="https://www.mysql.com" target="_blank">
                                         <span class="sr-only">MySQL</span>
                                         <svg viewBox="0 0 128 128" class="text-indigo fill-current w-10 dark:text-indigo-light">
@@ -279,10 +287,17 @@ if (!$isKnown) {
                                         </svg>
                                     </a>
                                     <a class="skill nodejs flex items-center justify-center p-4 rounded-full mb-1 mr-1" href="https://nodejs.org" target="_blank">
-                                        <span class="sr-only">NodeJS</span>
+                                        <span class="sr-only">Node.js</span>
                                         <svg viewBox="0 0 128 128" class="text-indigo fill-current w-10 dark:text-indigo-light">
                                             <path d="M112.678 30.334l-44.143-25.605c-2.781-1.584-6.424-1.584-9.227 0l-44.488 25.605c-2.869 1.651-4.82 4.754-4.82 8.073v51.142c0 3.319 1.992 6.423 4.862 8.083l11.729 6.688c5.627 2.772 7.186 2.772 9.746 2.772 8.334 0 12.662-5.039 12.662-13.828v-50.49c.001-.713.446-1.774-.255-1.774h-5.622c-.712 0-2.122 1.061-2.122 1.773v50.49c0 3.896-3.616 7.773-10.202 4.48l-12.122-7.013c-.422-.23-.676-.693-.676-1.181v-51.142c0-.482.463-.966.891-1.213l44.378-25.561c.415-.235 1.002-.235 1.415 0l43.963 25.555c.421.253.354.722.354 1.219v51.142c0 .488.092.963-.323 1.198l-44.133 25.576c-.378.227-.87.227-1.285 0l-11.317-6.749c-.341-.198-.752-.269-1.08-.086-3.145 1.783-3.729 2.02-6.679 3.043-.727.253-1.799.692.408 1.929l14.798 8.754c1.416.82 3.027 1.246 4.647 1.246 1.642 0 3.249-.426 4.666-1.246l43.976-25.582c2.871-1.672 4.322-4.764 4.322-8.083v-51.142c-.001-3.319-1.452-6.414-4.323-8.073zM77.727 81.445c-11.727 0-14.309-3.235-15.17-9.066-.102-.628-.634-1.379-1.274-1.379h-5.73c-.709 0-1.28.86-1.28 1.566 0 7.466 4.06 16.512 23.454 16.512 14.038 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.104 0 12.46 1.954 13.841 8.091.119.577.646.991 1.241.991h5.754c.354 0 .691-.143.939-.396.241-.272.367-.613.336-.979-.893-10.569-7.913-15.494-22.112-15.494-12.632 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.956-3.978 7.067-13.308 7.067z">
                                             </path>
+                                        </svg>
+                                    </a>
+                                    <a class="skill adonis flex items-center justify-center p-4 rounded-full mb-1 mr-1" href="https://adonisjs.com/" target="_blank">
+                                        <span class="sr-only">AdonisJs</span>
+                                        <svg viewBox="0 0 64 64" class="text-indigo fill-current w-10 h-10 dark:text-indigo-light" fill-rule="evenodd">
+                                            <path d="M12.864 56.82h45.383l-22.7-45.26zm22.7-53.2L64 60.367H7.1z" fill-rule="nonzero" />
+                                            <path d="M21.333 7.18l21.333 42.55H0z" />
                                         </svg>
                                     </a>
                                 </div>
@@ -362,8 +377,38 @@ if (!$isKnown) {
             <!-- Second col -->
             <div class="flex flex-col flex-grow items-center max-w-sm w-full md:mb-8 px-3 pt-8">
                 <h1 class="font-light uppercase text-grey-lightest text-2xl mt-3 mb-2">
-                    <span class="text-3xl mr-1 opacity-50">5</span>projets
+                    <span class="text-3xl mr-1 opacity-50">6</span>projets
                 </h1>
+
+                <!-- LeagueStats -->
+                <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2 dark:bg-dark-2 dark:text-dark-primary">
+                    <div class="flex items-center">
+                        <img src="img/leaguestats.png" class="w-auto h-12 mr-2 rounded-full" alt="LeagueStats">
+                        <span class="text-2xl font-light whitespace-no-wrap">LeagueStats</span>
+                    </div>
+                    <div class="w-full my-3">
+                        <p class="text-sm text-justify mb-2 px-4 py-1 -mx-4 bg-grey-lightest dark:bg-dark-3">
+                            Création d'un site de statistiques pour les joueurs du jeu League of Legends.
+                        </p>
+                        <div class="leading-loose">
+                            <div class="text-sm">
+                                Technologies utilisées :
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Vue.js</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">AdonisJs</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">MongoDB</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">TailwindCSS</span>
+                            </div>
+                            <div class="text-sm">
+                                Date :
+                                <span class="text-grey-darker dark:text-dark-disabled">décembre 2018 - actuellement</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://leaguestats.gg" target="_blank" class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
+                        Voir le site
+                    </a>
+
+                </div> <!-- ./LeagueStats -->
 
                 <!-- YouTogether -->
                 <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2 dark:bg-dark-2 dark:text-dark-primary">
@@ -474,7 +519,7 @@ if (!$isKnown) {
                             </div>
                             <div class="text-sm">
                                 Date :
-                                <span class="text-grey-darker dark:text-dark-disabled">avril 2016 - aujourd'hui</span>
+                                <span class="text-grey-darker dark:text-dark-disabled">avril 2016 - octobre 2019</span>
                             </div>
                         </div>
                     </div>
