@@ -94,7 +94,7 @@ body {
 }
 
 .vuejs:hover::after {
-  content: 'VueJS';
+  content: 'Vue.js';
 }
 
 .sass:hover::after {
@@ -115,6 +115,10 @@ body {
   content: 'PHP';
 }
 
+.laravel:hover::after {
+  content: 'Laravel';
+}
+
 .mysql:hover::after {
   content: 'MySQL';
 }
@@ -128,7 +132,12 @@ body {
 }
 
 .nodejs:hover::after {
-  content: 'NodeJS';
+  content: 'Node.js';
+}
+
+.adonis:hover::after {
+  content: 'AdonisJs';
+  font-size: 15px;
 }
 
 .java:hover::after {
