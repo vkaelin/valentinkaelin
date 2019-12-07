@@ -98,7 +98,7 @@ if (!$isKnown) {
                             <div class="flex justify-between mb-4">
                                 <div class="flex flex-col">
                                     <span class="uppercase text-grey text-xs dark:text-dark-secondary">Âge</span>
-                                    <span class="text-grey-darker dark:text-dark-disabled">21 ans</span>
+                                    <span class="text-grey-darker dark:text-dark-disabled">22 ans</span>
                                 </div>
                                 <div class="flex flex-col">
                                     <span class="uppercase text-grey text-xs dark:text-dark-secondary">Localisation</span>
