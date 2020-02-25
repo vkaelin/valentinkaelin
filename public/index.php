@@ -368,7 +368,7 @@ if (!$isKnown) {
                 <div class="hidden md:flex md:flex-row items-center text-xs sm:text-sm text-grey-lighter text-center justify-center py-4 max-w-sm w-full px-4 dark:text-dark-secondary">
                     <div>
                         <a href="https://valentinkaelin.ch" class="no-underline text-grey-lighter hover:text-grey hover:underline dark:text-dark-secondary">valentinkaelin.ch</a>
-                        &copy; 2017 - 2019 | Tous droits réservés.
+                        &copy; 2017 - <?= date("Y"); ?> | Tous droits réservés.
                     </div>
                 </div>
             </div> <!-- ./First col -->
@@ -560,7 +560,7 @@ if (!$isKnown) {
                 <div class="flex md:hidden md:flex-row items-center text-xs sm:text-sm text-grey-lighter text-center justify-center py-4 max-w-sm w-full px-4 dark:text-dark-secondary">
                     <div>
                         <a href="https://valentinkaelin.ch" class="no-underline text-grey-lighter hover:text-grey hover:underline dark:text-dark-secondary">valentinkaelin.ch</a>
-                        &copy; 2017 - 2019 | Tous droits réservés.
+                        &copy; 2017 - <?= date("Y"); ?> | Tous droits réservés.
                     </div>
                 </div>
 
