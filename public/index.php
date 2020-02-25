@@ -396,7 +396,8 @@ if (!$isKnown) {
                                 <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Vue.js</span>,
                                 <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">AdonisJs</span>,
                                 <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">MongoDB</span>,
-                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">TailwindCSS</span>
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">TailwindCSS</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Redis</span>
                             </div>
                             <div class="text-sm">
                                 Date :
