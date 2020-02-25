@@ -10,6 +10,10 @@ $user_ip = $_SERVER['REMOTE_ADDR'];
 $check_ip = $bdd->prepare('SELECT userip FROM totalview WHERE userip = :user_ip');
 $check_ip->execute(array('user_ip' => $user_ip));
 
+/* Calculate my age */
+$dateOfBirth = "15-11-1997";
+$today = date("Y-m-d");
+$diff = date_diff(date_create($dateOfBirth), date_create($today));
 
 $isKnown = $check_ip->fetch();
 if (!$isKnown) {
@@ -98,7 +102,7 @@ if (!$isKnown) {
                             <div class="flex justify-between mb-4">
                                 <div class="flex flex-col">
                                     <span class="uppercase text-grey text-xs dark:text-dark-secondary">Âge</span>
-                                    <span class="text-grey-darker dark:text-dark-disabled">22 ans</span>
+                                    <span class="text-grey-darker dark:text-dark-disabled"><?= $diff->format('%y'); ?> ans</span>
                                 </div>
                                 <div class="flex flex-col">
                                     <span class="uppercase text-grey text-xs dark:text-dark-secondary">Localisation</span>
