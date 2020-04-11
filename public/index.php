@@ -121,7 +121,7 @@ if (!$isKnown) {
                         <?php //<span id="openDiscord" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white cursor-pointer dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Discord</span> 
                         ?>
                         <a href="/docs/ValentinKaelin-Resume.pdf" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white cursor-pointer dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">CV</a>
-                        <a href="https://github.com/Kalaneee" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-grey-darkest text-grey-darkest hover:bg-grey-darkest hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">GitHub</a>
+                        <a href="https://github.com/vkaelin" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-grey-darkest text-grey-darkest hover:bg-grey-darkest hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">GitHub</a>
                     </div> <!-- /Bottom of the card -->
                 </div><!-- ./ About -->
 
@@ -556,7 +556,7 @@ if (!$isKnown) {
                             </div>
                         </div>
                     </div>
-                    <a href="https://github.com/Kalaneee/BikeGame-EPFL" target="_blank" class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
+                    <a href="https://github.com/vkaelin/BikeGame-EPFL" target="_blank" class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
                         Voir le code
                     </a>
 
