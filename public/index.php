@@ -118,9 +118,9 @@ if (!$isKnown) {
                     <div class="flex flex-wrap justify-around px-3 py-3 border-t border-grey-lighter dark:border-dark-4">
                         <a href="mailto:contact@valentinkaelin.ch" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-blue-dark text-blue-dark hover:bg-blue-dark hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Email</a>
                         <a href="https://www.linkedin.com/in/valentin-kaelin-659759157/" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-blue text-blue hover:bg-blue hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">LinkedIn</a>
-                        <?php //<span id="openDiscord" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white cursor-pointer dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Discord</span> 
+                        <?php //<span id="openDiscord" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Discord</span> 
                         ?>
-                        <a href="/docs/ValentinKaelin-Resume.pdf" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white cursor-pointer dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">CV</a>
+                        <a href="/docs/ValentinKaelin-Resume.pdf" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-indigo text-indigo cursor-pointer hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">CV</a>
                         <a href="https://github.com/vkaelin" target="_blank" class="mx-1 my-1 no-underline text-xs font-semibold rounded-full px-3 py-1 border border-grey-darkest text-grey-darkest hover:bg-grey-darkest hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">GitHub</a>
                     </div> <!-- /Bottom of the card -->
                 </div><!-- ./ About -->
@@ -131,15 +131,27 @@ if (!$isKnown) {
                         <div class="text-xl leading-tight mb-3">Formations</div>
                         <div class="flex flex-col bg-grey-lightest px-4 py-2 mt-2 mb-4 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
                             <div class="flex items-center mb-2">
+                                <div class="mr-2 text-base">HEIG-VD</div>
+                                <div class="text-sm leading-tight text-grey-dark mr-1 dark:text-dark-secondary">septembre 2020 - actuellement
+                                </div>
+                                <img src="img/heig.svg" class="w-12 ml-auto mt-2" alt="HEIG">
+                            </div>
+                            <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">
+                                Bachelor en Informatique logicielle.
+                            </p>
+                            <a href="https://heig-vd.ch/" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
+                        </div>
+                        <div class="flex flex-col bg-grey-lightest px-4 py-2 mt-2 mb-4 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
+                            <div class="flex items-center mb-2">
                                 <div class="mr-2 text-base">ETML</div>
-                                <div class="text-sm leading-tight text-grey-dark mr-1 dark:text-dark-secondary">août 2018 - actuellement
+                                <div class="text-sm leading-tight text-grey-dark mr-1 dark:text-dark-secondary">août 2018 - juin 2020
                                 </div>
                                 <img src="img/etml.jpg" class="w-12 ml-auto mt-2 rounded-full" alt="ETML">
                             </div>
                             <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">
                                 FPA (Formation Professionnelle accélérée) en informatique.
                             </p>
-                            <a href="https://www.etml.ch/" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
+                            <a href="https://www.etml.ch/" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
                         </div>
                         <div class="flex flex-col bg-grey-lightest px-4 py-2 mt-2 mb-4 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
                             <div class="flex items-center mb-2">
@@ -151,14 +163,14 @@ if (!$isKnown) {
                             <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">
                                 Certificate of Open Studies in Web Application Development.
                             </p>
-                            <a href="https://exts.epfl.ch/courses-programs/web-application-development" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
+                            <a href="https://www.extensionschool.ch/web-application-development" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
                         </div>
                         <div class="flex flex-col bg-grey-lightest px-4 py-2 mt-2 mb-4 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
                             <div class="flex items-center mb-2">
                                 <div class="mr-2 text-base">EPFL</div>
                                 <div class="text-sm leading-tight text-grey-dark mr-1 dark:text-dark-secondary">septembre 2017 - février
                                     2018</div>
-                                <img src="img/epfl.jpg" class="w-auto h-12 ml-auto mt-2 rounded-full" alt="EPFL">
+                                <img src="img/epfl.svg" class="w-12 ml-auto mt-2" alt="EPFL">
                             </div>
                             <p class="text-sm pt-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">Cursus arrêté à la fin du
                                 premier semestre de
@@ -186,7 +198,7 @@ if (!$isKnown) {
                             <p class="text-sm pt-2 mb-2 border-t border-grey-lighter w-4/5 dark:border-dark-4">
                                 Maturité fédérale en option maths et physique.
                             </p>
-                            <a href="http://www.gymnasedeburier.ch/site/" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
+                            <a href="https://www.gymnasedeburier.ch/" target="_blank" class="self-end no-underline text-xs font-semibold rounded-full px-4 py-1 -mt-4 mb-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">Site</a>
                         </div>
 
                     </div>
