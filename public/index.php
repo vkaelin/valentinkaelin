@@ -405,9 +405,6 @@ if (!$isKnown) {
                             </div>
                         </div> <!-- ./Dev -->
 
-
-
-
                         <div class="px-4 py-2 bg-grey-lightest my-2 border border-grey-lighter rounded-lg dark:bg-dark-3 dark:border-transparent dark:shadow-md">
                             <div class="text-lg">Design</div>
                             <div class="pl-2">
@@ -456,7 +453,7 @@ if (!$isKnown) {
             <!-- Second col -->
             <div class="flex flex-col flex-grow items-center max-w-sm w-full md:mb-8 px-3 pt-8">
                 <h1 class="font-light uppercase text-grey-lightest text-2xl mt-3 mb-2">
-                    <span class="text-3xl mr-1 opacity-50">6</span>projets
+                    <span class="text-3xl mr-1 opacity-50">7</span>projets
                 </h1>
 
                 <!-- LeagueStats -->
@@ -467,7 +464,7 @@ if (!$isKnown) {
                     </div>
                     <div class="w-full my-3">
                         <p class="text-sm text-justify mb-2 px-4 py-1 -mx-4 bg-grey-lightest dark:bg-dark-3">
-                            Création d'un site de statistiques pour les joueurs du jeu League of Legends.
+                            Création d'un site de statistiques pour les joueurs du jeu League of Legends. Plusieurs millions de matchs analysés.
                         </p>
                         <div class="leading-loose">
                             <div class="text-sm">
@@ -484,11 +481,52 @@ if (!$isKnown) {
                             </div>
                         </div>
                     </div>
-                    <a href="https://leaguestats.gg" target="_blank" class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
-                        Voir le site
-                    </a>
+                    <div class="w-full flex justify-end items-center">
+                        <a href="https://github.com/vkaelin/LeagueStats" target="_blank" class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
+                            Voir le code
+                        </a>
+                        <a href="https://leaguestats.gg" target="_blank" class="sm:self-end ml-2 no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
+                            Voir le site
+                        </a>
+                    </div>
 
                 </div> <!-- ./LeagueStats -->
+
+                <!-- WizardMC -->
+                <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2 dark:bg-dark-2 dark:text-dark-primary">
+                    <div class="flex items-center">
+                        <img src="img/wizardmc.png" class="w-auto h-12 mr-2 rounded-full" alt="WizardMC">
+                        <span class="text-2xl font-light whitespace-no-wrap">WizardMC</span>
+                    </div>
+                    <div class="w-full my-3">
+                        <p class="text-sm text-justify mb-2 px-4 py-1 -mx-4 bg-grey-lightest dark:bg-dark-3">
+                            Création d'un site pour le serveur minecraft WizardMC. Quelques fonctionnalités: E-commerce, panel d'administration, profils pour les joueurs, système de news et autres.
+                        </p>
+                        <div class="leading-loose">
+                            <div class="text-sm">
+                                Technologies utilisées :
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Nuxt.js</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">AdonisJs</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">TailwindCSS</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">PostgreSQL</span>,
+                                <span class="text-grey-darker border-b border-dashed pb-px dark:text-dark-disabled dark:border-dark-disabled">Redis</span>
+                            </div>
+                            <div class="text-sm">
+                                Date :
+                                <span class="text-grey-darker dark:text-dark-disabled">mars 2020 - août 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex justify-end items-center">
+                        <a href="https://github.com/EvoWide/wizardmc.fr" target="_blank" class="sm:self-end no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
+                            Voir le code
+                        </a>
+                        <a href="https://wizardmc.fr" target="_blank" class="sm:self-end ml-2 no-underline text-xs font-semibold rounded-full px-4 py-1 border border-indigo text-indigo hover:bg-indigo hover:text-white dark:border-indigo-light dark:bg-indigo-light dark:text-white btn">
+                            Voir le site
+                        </a>
+                    </div>
+
+                </div> <!-- ./WizardMC -->
 
                 <!-- YouTogether -->
                 <div class="flex flex-col items-center w-full bg-white rounded shadow px-4 py-4 my-2 dark:bg-dark-2 dark:text-dark-primary">
