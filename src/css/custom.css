@@ -97,6 +97,10 @@ body {
   content: 'Vue.js';
 }
 
+.nuxtjs:hover::after {
+  content: 'Nuxt.js';
+}
+
 .sass:hover::after {
   content: 'Sass';
 }
@@ -119,10 +123,6 @@ body {
   content: 'Laravel';
 }
 
-.mysql:hover::after {
-  content: 'MySQL';
-}
-
 .ror:hover::after {
   content: 'Ruby\Aon\ARails';
   white-space: pre;
@@ -140,12 +140,35 @@ body {
   font-size: 15px;
 }
 
+.mysql:hover::after {
+  content: 'MySQL';
+}
+
+.postgres:hover::after {
+  content: 'PostgreSQL';
+  font-size: 13px;
+}
+
+.mongo:hover::after {
+  content: 'MongoDB';
+  font-size: 13px;
+}
+
+.redis:hover::after {
+  content: 'Redis';
+}
+
 .java:hover::after {
   content: 'Java';
 }
 
 .csharp:hover::after {
   content: 'C#';
+}
+
+.typescript:hover::after {
+  content: 'TypeScript';
+  font-size: 13px;
 }
 
 .photoshop:hover::after {
