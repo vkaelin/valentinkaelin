@@ -1,0 +1,201 @@
+body {
+  background: linear-gradient(to right, rgb(96, 108, 136), rgb(63, 76, 107));
+}
+
+.dark body {
+  background: #000;
+}
+
+.light-on {
+  color: #F2D024 !important;
+}
+
+.back-to-top {
+  transition: opacity .4s ease-in-out;
+}
+
+.modal-discord {
+  transform: translateY(-100%);
+  transition: all .6s ease-in-out;
+  will-change: transform;
+}
+
+.dark .btn:hover {
+  background: transparent;
+  box-shadow: 0 4px 8px 0 rgba(120, 134, 215, 0.24), 0 2px 4px 0 rgba(120, 134, 215, 0.16);
+}
+
+/* Skills section */
+.indigo-circle {
+  position: relative;
+}
+
+.indigo-circle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -7px;
+
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background: #6574cd;
+}
+
+.skill {
+  position: relative;
+  box-shadow: inset 0px -2px 0px 0px rgba(178,183,255,1);
+}
+
+.skill:hover {
+  box-shadow: inset 0px 0px 0px 2px rgba(178,183,255,1);
+  background: #fff;
+  transition: .2s all ease-in-out;
+}
+
+.skill:hover svg,
+.skill:hover svg path {
+  fill: #fff;
+}
+
+.skill:hover::after {
+  content: '';
+  position: absolute;
+  color: #6574cd;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.dark .skill:hover {
+  background: #303030;
+}
+
+.dark .skill:hover svg,
+.dark .skill:hover svg path {
+  fill: #303030;
+}
+
+.dark .skill:hover::after {
+  color: #7886d7;
+}
+
+.html:hover::after {
+  content: 'HTML';
+}
+
+.css:hover::after {
+  content: 'CSS';
+}
+
+.js:hover::after {
+  content: 'JavaScript';
+  font-size: 14px;
+}
+
+.vuejs:hover::after {
+  content: 'Vue.js';
+}
+
+.nuxtjs:hover::after {
+  content: 'Nuxt.js';
+}
+
+.sass:hover::after {
+  content: 'Sass';
+}
+
+.tailwind:hover::after {
+  content: 'Tailwind';
+  font-size: 17px;
+}
+
+.bootstrap:hover::after {
+  content: 'Bootstrap';
+  font-size: 15px;
+}
+
+.php:hover::after {
+  content: 'PHP';
+}
+
+.laravel:hover::after {
+  content: 'Laravel';
+}
+
+.ror:hover::after {
+  content: 'Ruby\Aon\ARails';
+  white-space: pre;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.nodejs:hover::after {
+  content: 'Node.js';
+}
+
+.adonis:hover::after {
+  content: 'AdonisJs';
+  font-size: 15px;
+}
+
+.mysql:hover::after {
+  content: 'MySQL';
+}
+
+.postgres:hover::after {
+  content: 'PostgreSQL';
+  font-size: 13px;
+}
+
+.mongo:hover::after {
+  content: 'MongoDB';
+  font-size: 13px;
+}
+
+.redis:hover::after {
+  content: 'Redis';
+}
+
+.java:hover::after {
+  content: 'Java';
+}
+
+.csharp:hover::after {
+  content: 'C#';
+}
+
+.typescript:hover::after {
+  content: 'TypeScript';
+  font-size: 13px;
+}
+
+.photoshop:hover::after {
+  content: 'Photoshop';
+  font-size: 13px;
+}
+
+.xd:hover::after {
+  content: 'Adobe\AXd';
+  white-space: pre;
+  text-align: center;
+  font-size: 17px;
+}
+
+.xd svg .inside {
+  fill: #fff;
+}
+
+.dark .xd svg .inside {
+  fill: #303030;
+}
+
+.figma:hover::after {
+  content: 'Figma';
+}
+
+/* Projects */
+.dark .elementair {
+  content: url("../img/3lementair--white.png");
+}
