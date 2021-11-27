@@ -79,7 +79,7 @@ export interface Project {
   techs: Array<string>;
   techsLabel?: string;
   from: string;
-  to: string;
+  to?: string;
   codeLink?: string;
   websiteLink?: string;
 }

@@ -81,19 +81,19 @@
             >
               <a
                 href="mailto:contact@valentinkaelin.ch"
-                class="hover:bg-blue-600 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn px-3 py-1 mx-1 my-1 text-xs font-semibold text-blue-600 no-underline border border-blue-600 rounded-full"
+                class="hover:bg-blue-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn px-3 py-1 mx-1 my-1 text-xs font-semibold text-blue-500 no-underline border border-blue-500 rounded-full"
               >Email</a>
               <a
                 href="https://www.linkedin.com/in/valentin-kaelin-659759157/"
                 target="_blank"
-                class="hover:bg-blue-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn px-3 py-1 mx-1 my-1 text-xs font-semibold text-blue-500 no-underline border border-blue-500 rounded-full"
+                class="hover:bg-blue-400 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn px-3 py-1 mx-1 my-1 text-xs font-semibold text-blue-400 no-underline border border-blue-400 rounded-full"
               >LinkedIn</a>
               <a
                 href="/docs/ValentinKaelin-Resume.pdf"
                 class="hover:bg-indigo-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn px-3 py-1 mx-1 my-1 text-xs font-semibold text-indigo-500 no-underline border border-indigo-500 rounded-full cursor-pointer"
               >CV</a>
               <a
-                href="https://github.com/Kalaneee"
+                href="https://github.com/vkaelin"
                 target="_blank"
                 class="hover:bg-gray-900 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn px-3 py-1 mx-1 my-1 text-xs font-semibold text-gray-900 no-underline border border-gray-900 rounded-full"
               >GitHub</a>
@@ -102,141 +102,18 @@
           </div>
           <!-- ./ About -->
 
-          <!-- Formations -->
+          <!-- Studies -->
           <div
             class="dark:bg-neutral-800 dark:text-dark-primary w-full my-2 bg-white rounded shadow"
           >
             <div class="px-6 py-4">
               <div class="mb-3 text-xl leading-tight">Formations</div>
-              <div
-                class="bg-gray-50 dark:bg-neutral-750 dark:border-transparent dark:shadow-md flex flex-col px-4 py-2 mt-2 mb-4 border border-gray-200 rounded-lg"
-              >
-                <div class="flex items-center mb-2">
-                  <div class="mr-2 text-base">HEIG-VD</div>
-                  <div
-                    class="dark:text-gray-300 mr-1 text-sm leading-tight text-gray-500"
-                  >septembre 2020 - actuellement</div>
-                  <img src="/img/heig.svg" class="w-12 mt-2 ml-auto" alt="HEIG" />
-                </div>
-                <p
-                  class="dark:border-dark-4 w-4/5 pt-2 mb-2 text-sm border-t border-gray-200"
-                >Bachelor en Informatique logicielle.</p>
-                <a
-                  href="https://heig-vd.ch/"
-                  target="_blank"
-                  class="hover:bg-indigo-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn self-end px-4 py-1 mb-1 -mt-4 text-xs font-semibold text-indigo-500 no-underline border border-indigo-500 rounded-full"
-                >Site</a>
-              </div>
-              <div
-                class="dark:bg-neutral-750 dark:border-transparent dark:shadow-md flex flex-col px-4 py-2 mt-2 mb-4 bg-gray-100 border border-gray-200 rounded-lg"
-              >
-                <div class="flex items-center mb-2">
-                  <div class="mr-2 text-base">ETML</div>
-                  <div
-                    class="dark:text-gray-300 mr-1 text-sm leading-tight text-gray-500"
-                  >août 2018 - juin 2020</div>
-                  <img src="/img/etml.jpg" class="w-12 mt-2 ml-auto rounded-full" alt="ETML" />
-                </div>
-                <p
-                  class="dark:border-dark-4 w-4/5 pt-2 mb-2 text-sm border-t border-gray-200"
-                >FPA (Formation Professionnelle accélérée) en informatique.</p>
-                <a
-                  href="https://www.etml.ch/"
-                  target="_blank"
-                  class="hover:bg-indigo-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn self-end px-4 py-1 mb-1 -mt-4 text-xs font-semibold text-indigo-500 no-underline border border-indigo-500 rounded-full"
-                >Site</a>
-              </div>
-              <div
-                class="dark:bg-neutral-750 dark:border-transparent dark:shadow-md flex flex-col px-4 py-2 mt-2 mb-4 bg-gray-100 border border-gray-200 rounded-lg"
-              >
-                <div class="flex items-center mb-2">
-                  <div class="mr-2 text-base">EPFL Extension School</div>
-                  <div
-                    class="dark:text-gray-300 mr-1 text-sm leading-tight text-gray-500"
-                  >mai 2018 - juillet 2018</div>
-                  <img
-                    src="/img/exts.jpg"
-                    class="w-auto h-12 mt-2 ml-auto rounded-full"
-                    alt="Extension School"
-                  />
-                </div>
-                <p
-                  class="dark:border-dark-4 w-4/5 pt-2 mb-2 text-sm border-t border-gray-200"
-                >Certificate of Open Studies in Web Application Development.</p>
-                <a
-                  href="https://exts.epfl.ch/courses-programs/web-application-development"
-                  target="_blank"
-                  class="hover:bg-indigo-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn self-end px-4 py-1 mb-1 -mt-4 text-xs font-semibold text-indigo-500 no-underline border border-indigo-500 rounded-full"
-                >Site</a>
-              </div>
-              <div
-                class="dark:bg-neutral-750 dark:border-transparent dark:shadow-md flex flex-col px-4 py-2 mt-2 mb-4 bg-gray-100 border border-gray-200 rounded-lg"
-              >
-                <div class="flex items-center mb-2">
-                  <div class="mr-2 text-base">EPFL</div>
-                  <div
-                    class="dark:text-gray-300 mr-1 text-sm leading-tight text-gray-500"
-                  >septembre 2017 - février 2018</div>
-                  <img src="/img/epfl.svg" class="w-12 mt-2 ml-auto" alt="EPFL" />
-                </div>
-                <p class="dark:border-dark-4 w-4/5 pt-2 text-sm border-t border-gray-200">
-                  Cursus arrêté à la fin du premier semestre de l'année
-                  propédeutique en informatique.
-                </p>
-                <a
-                  href="https://www.epfl.ch/"
-                  target="_blank"
-                  class="hover:bg-indigo-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn self-end px-4 py-1 mb-1 -mt-4 text-xs font-semibold text-indigo-500 no-underline border border-indigo-500 rounded-full"
-                >Site</a>
-              </div>
-              <div
-                class="dark:bg-neutral-750 dark:border-transparent dark:shadow-md flex flex-col px-4 py-2 mt-2 mb-4 bg-gray-100 border border-gray-200 rounded-lg"
-              >
-                <div class="flex items-center mb-2">
-                  <div class="mr-2 text-base">Ecole 42</div>
-                  <div class="dark:text-gray-300 mr-1 text-sm leading-tight text-gray-500">août 2017</div>
-                  <img
-                    src="/img/42.jpg"
-                    class="w-12 h-12 mt-2 ml-auto rounded-full"
-                    style="object-fit: cover"
-                    alt="Ecole 42"
-                  />
-                </div>
-                <p
-                  class="dark:border-dark-4 w-4/5 pt-2 mb-2 text-sm border-t border-gray-200"
-                >Piscine (test d'admission d'une période d'un mois) réussie.</p>
-                <a
-                  href="http://www.42.fr/"
-                  target="_blank"
-                  class="hover:bg-indigo-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn self-end px-4 py-1 mb-1 -mt-4 text-xs font-semibold text-indigo-500 no-underline border border-indigo-500 rounded-full"
-                >Site</a>
-              </div>
-              <div
-                class="dark:bg-neutral-750 dark:border-transparent dark:shadow-md flex flex-col px-4 py-2 mt-2 mb-4 bg-gray-100 border border-gray-200 rounded-lg"
-              >
-                <div class="flex items-center mb-2">
-                  <div class="mr-2 text-base">Gymnase</div>
-                  <div
-                    class="dark:text-gray-300 mr-1 text-sm leading-tight text-gray-500"
-                  >août 2013 - juin 2016</div>
-                  <img
-                    src="/img/burier.jpg"
-                    class="w-auto h-12 mt-2 ml-auto rounded-full"
-                    alt="Gymnase de Burier"
-                  />
-                </div>
-                <p
-                  class="dark:border-dark-4 w-4/5 pt-2 mb-2 text-sm border-t border-gray-200"
-                >Maturité fédérale en option maths et physique.</p>
-                <a
-                  href="http://www.gymnasedeburier.ch/site/"
-                  target="_blank"
-                  class="hover:bg-indigo-500 hover:text-white dark:border-indigo-400 dark:bg-indigo-400 dark:text-white btn self-end px-4 py-1 mb-1 -mt-4 text-xs font-semibold text-indigo-500 no-underline border border-indigo-500 rounded-full"
-                >Site</a>
-              </div>
+              <template v-for="study in studies" :key="study.name">
+                <Study :study="study" />
+              </template>
             </div>
           </div>
-          <!-- ./Formations -->
+          <!-- ./Studies -->
 
           <!-- Skills -->
           <div
@@ -605,6 +482,61 @@
 
 <script setup lang="ts">
 import type { Project } from '~/components/Project.vue';
+import type { Study } from '~/components/Study.vue';
+
+
+const studies: Array<Study> = [
+  {
+    name: 'HEIG-VD',
+    from: 'septembre 2020',
+    to: 'actuellement',
+    image: 'heig.svg',
+    description: 'Bachelor en Informatique logicielle.',
+    link: 'https://heig-vd.ch/',
+  },
+  {
+    name: 'ETML',
+    from: 'août 2018',
+    to: 'juin 2020',
+    image: 'etml.jpg',
+    description: 'FPA (Formation Professionnelle accélérée) en informatique.',
+    link: 'https://www.etml.ch/',
+  },
+  {
+    name: 'EPFL Extension School',
+    from: 'mai 2018',
+    to: 'juillet 2018',
+    image: 'exts.jpg',
+    imageClasses: 'rounded-full',
+    description: 'Certificate of Open Studies in Web Application Development.',
+    link: 'https://exts.epfl.ch/courses-programs/web-application-development',
+  },
+  {
+    name: 'EPFL',
+    from: 'septembre 2017',
+    to: 'février 2018',
+    image: 'epfl.svg',
+    description: "Cursus arrêté à la fin du premier semestre de l'année propédeutique en informatique.",
+    link: 'https://www.epfl.ch/',
+  },
+  {
+    name: 'Ecole 42',
+    from: 'août 2017',
+    image: '42.jpg',
+    imageClasses: 'rounded-full h-12',
+    description: "Piscine (test d'admission d'une période d'un mois) réussie.",
+    link: 'http://www.42.fr/',
+  },
+  {
+    name: 'Gymnase',
+    from: 'août 201',
+    to: 'juin 2016',
+    image: 'burier.jpg',
+    imageClasses: 'rounded-full h-12',
+    description: 'Maturité fédérale en option maths et physique.',
+    link: 'https://www.gymnasedeburier.ch/',
+  }
+]
 
 const projects: Array<Project> = [
   {
@@ -678,20 +610,17 @@ const projects: Array<Project> = [
     imageRounded: true,
     techs: ['Java', 'jbox2d'],
     from: 'décembre 2017',
-    to: '',
     codeLink: 'https://github.com/Kalaneee/BikeGame-EPFL',
   },
-];
+]
 
 function switchTheme() {
   localStorage['darkMode'] = document.documentElement.classList.toggle('dark');
 }
 
-function getPreferedTheme() {
+onMounted(() => {
   if (localStorage['darkMode'] === 'true') {
     document.documentElement.classList.add('dark');
   }
-}
-
-onMounted(getPreferedTheme)
+})
 </script>
