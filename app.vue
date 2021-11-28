@@ -5,10 +5,10 @@
 </template>
 
 <script lang="ts" setup>
-import "./assets/tailwind.css";
-import "./assets/custom.css";
+import './assets/tailwind.css';
+import './assets/custom.css';
 
-console.log("loaded");
+console.log('loaded');
 
 /*
 // Back-to-top
