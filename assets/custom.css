@@ -2,7 +2,7 @@ body {
   background: linear-gradient(to right, rgb(96, 108, 136), rgb(63, 76, 107));
 }
 
-.mode-dark body {
+.dark body {
   background: #000;
 }
 
@@ -20,7 +20,7 @@ body {
   will-change: transform;
 }
 
-.mode-dark .btn:hover {
+.dark .btn:hover {
   background: transparent;
   box-shadow: 0 4px 8px 0 rgba(120, 134, 215, 0.24), 0 2px 4px 0 rgba(120, 134, 215, 0.16);
 }
@@ -67,16 +67,16 @@ body {
   font-size: 18px;
 }
 
-.mode-dark .skill:hover {
+.dark .skill:hover {
   background: #303030;
 }
 
-.mode-dark .skill:hover svg,
-.mode-dark .skill:hover svg path {
+.dark .skill:hover svg,
+.dark .skill:hover svg path {
   fill: #303030;
 }
 
-.mode-dark .skill:hover::after {
+.dark .skill:hover::after {
   color: #7886d7;
 }
 
@@ -187,7 +187,7 @@ body {
   fill: #fff;
 }
 
-.mode-dark .xd svg .inside {
+.dark .xd svg .inside {
   fill: #303030;
 }
 
@@ -196,6 +196,6 @@ body {
 }
 
 /* Projects */
-.mode-dark .elementair {
-  content:url("../img/3lementair--white.png");
+.dark .elementair {
+  content: url("../img/3lementair--white.png");
 }
