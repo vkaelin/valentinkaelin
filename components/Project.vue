@@ -30,7 +30,7 @@
             <span
               class="dark:text-gray-400 dark:border-dark-disabled pb-px text-gray-800 border-b border-dashed"
             >{{ tech }}</span>
-            <template v-if="index != project.techs.length - 1">,</template>
+            <template v-if="index != project.techs.length - 1">, </template>
           </template>
         </div>
         <div class>
