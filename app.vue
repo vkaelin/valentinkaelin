@@ -8,8 +8,6 @@
 import './assets/tailwind.css';
 import './assets/custom.css';
 
-console.log('loaded');
-
 /*
 // Back-to-top
 const backToTop = document.querySelector(".back-to-top");
