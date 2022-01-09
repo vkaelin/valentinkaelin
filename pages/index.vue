@@ -40,7 +40,7 @@
           >
             <div class="sm:flex sm:items-center px-6 pt-4">
               <img
-                src="/img/me.jpg"
+                :src="'/img/me.jpg'"
                 class="sm:h-24 sm:mb-0 sm:mr-4 sm:ml-0 self-start block h-16 mx-auto mb-4 rounded-full shadow"
                 alt="Profile picture"
               />
