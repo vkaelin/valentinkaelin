@@ -12,4 +12,12 @@ export default defineNuxtConfig({
       },
     },
   },
+  meta: {
+    script: [
+      {
+        'data-domain': 'valentinkaelin.ch',
+        src: 'https://plausible.io/js/plausible.js',
+      },
+    ],
+  },
 });
